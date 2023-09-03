@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putchar.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ddogan <ddogan@student.42istanbul.com.tr>  +#+  +:+       +#+        */
+/*   By: mudogan <mudogan@student.42istanbul.com.t  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/09/03 18:03:42 by ddogan            #+#    #+#             */
-/*   Updated: 2023/09/03 18:04:15 by ddogan           ###   ########.tr       */
+/*   Created: 2023/09/02 13:50:47 by mudogan           #+#    #+#             */
+/*   Updated: 2023/09/02 13:51:07 by mudogan          ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <unistd.h>
