@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   rush00.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ddogan <ddogan@student.42istanbul.com.tr>  +#+  +:+       +#+        */
+/*   By: mudogan <mudogan@student.42istanbul.com.t  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/09/03 13:33:51 by ddogan            #+#    #+#             */
-/*   Updated: 2023/09/03 14:13:34 by ddogan           ###   ########.tr       */
+/*   Created: 2023/09/02 13:50:47 by mudogan           #+#    #+#             */
+/*   Updated: 2023/09/02 13:51:07 by mudogan          ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 void	ft_putchar(char c); // prototip
