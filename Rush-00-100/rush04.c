@@ -14,7 +14,7 @@ void	ft_putchar(char c); //prototip
 
 void	satir_olustur(int line, char a_1, char b_2, char c_3)
 {
-	int	den;
+	int	den; //satır = den
 
 	den = 1;
 	while (den <= line)
