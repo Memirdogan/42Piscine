@@ -1,31 +1,37 @@
 int ft_atoi(char *str)
 {
-    int i=0;
-    int s=1;
-    int res=0;
+   int a;
+   int i;
+   int t;
 
-    while(str[i] >= '\t' && str[i] <= '\r' || str[i] == ' ' )
-    {
-        i++;
-    }
-    while(str[i] == '-' || str[i] == '+')
-    {
-        if(str[i]== '-')
+   i=0;
+   a=0;
+   t=1;
+
+   while (str[i] == ' ' || str[i] == '\t' || str[i] == '\v' 
+        || str[i] == '\f' || str[i] == '\n' || str[i] == '\r')
+   {
+    i++;
+   }
+   while (str[i] == '+' || str[i] == '-')
+   {
+        if (str[i] == '-')
         {
-            s = s * -1;
+            t*=-1;
         }
         i++;
-    }
-    while (str[i] >= '0' && str[i] <= '9') 
-    {
-        res = (str[i] - '0') + (res * 10);
+   }
+   while (str[i] >= '0' && str[i] <= '9')
+   {
+        a = (a * 10) + str[i] - 48;
         i++;
-    }
-    return(res * s);
+   }
+   return(t * a);
 }
-
-/* int		main(void)
+/*
+#include <stdio.h>
+ int		main(void)
 {
 	printf("%d\n", ft_atoi("      	 ---+--+1234ab567"));
 
-} */
+}*/
