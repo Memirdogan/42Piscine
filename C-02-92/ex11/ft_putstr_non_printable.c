@@ -1,5 +1,5 @@
 #include <unistd.h>
-
+//ex11 norminette tarafından ko aldı
 void	ft_init_hex_table(char base[])
 {
 	base[0] = '0';
