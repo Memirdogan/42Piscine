@@ -5,7 +5,7 @@ int	ft_iterative_power(int nb, int power)
 	holder = nb;
 	while (power > 1) 
 	{
-		holder *= nb; 
+		holder = holder * nb; 
 		power--; 
 	}
     if (power == 0)
